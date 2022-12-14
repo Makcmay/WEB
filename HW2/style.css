@@ -1,0 +1,51 @@
+html {
+    background-color: beige; font-size: 20px; font-family: 'Roboto', sans-serif;
+}
+p {color: brown;
+}
+ul {color: whitesmoke;
+}
+body{
+    width: 1200px;
+    margin: 10px auto;
+    background-color: darkgray;
+    padding: 0 20px 20px 20px;
+    border: 2px solid white;
+}
+h1{
+    margin: 0 auto;
+    padding: 20px 0;
+    text-shadow: 2px 2px 1px rgb(130, 127, 127); 
+}
+/* img{
+    display: block;
+    margin-right: 100px;
+} */
+ul{
+    /* list-style-type: square; */
+    list-style-type: disclosure-closed;
+}
+#footer{
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #39b54a; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+   }
+#my_info{
+    font-size: 40px; font-family: 'Rubik Beastly', sans-serif;
+    margin-left: 600px;
+    margin-top: -600px;
+}
+
+.right{
+    /* display: block; */
+    width:350px;
+    margin-right: 0 auto;
+}
+
+.left{  
+    margin-left: 600px;
+    width:350px;
+}
